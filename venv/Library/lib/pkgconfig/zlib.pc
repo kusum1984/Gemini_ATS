@@ -1,0 +1,13 @@
+prefix=E:/Gemini_ATS/venv/Library
+exec_prefix=E:/Gemini_ATS/venv/Library
+libdir=E:/Gemini_ATS/venv/Library/lib
+sharedlibdir=E:/Gemini_ATS/venv/Library/lib
+includedir=E:/Gemini_ATS/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
